@@ -1,0 +1,6 @@
+pandas==2.3.3
+numpy==2.3.5
+seaborn==0.13.2
+scikit-learn==1.8.0
+mlflow==3.7.0
+streamlit==1.52.1

@@ -1,0 +1,15 @@
+from src.data import train_test_split_diamonds
+
+X_train, X_test, y_train, y_test = train_test_split_diamonds()
+print(X_train.count())
+print(X_test.count())
+print(y_train.count())
+print(y_test.count())
+print("x_train")
+X_train.head()
+print("x_test")
+X_test.head()
+print("y_train")
+y_train.head()
+print("y_test")
+y_test.head()
